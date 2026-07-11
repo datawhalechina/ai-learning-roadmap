@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Datawhale 人工智能培养方案 V3.1 闯关式学习地图">
+  <title>Datawhale AI 学习地图 · 破浪计划</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#quest-map">跳到学习地图</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark" aria-hidden="true">🐳</span>
+      <span>
+        <strong>Datawhale AI 学习地图</strong>
+        <small>V3.1 · 破浪计划</small>
+      </span>
+    </a>
+    <nav class="top-nav" aria-label="主导航">
+      <a href="#choose">选择路线</a>
+      <a href="#quest-map">关卡地图</a>
+      <a href="#advanced">进阶航线</a>
+      <a href="curriculum-v3.1.md">文档版</a>
+    </nav>
+    <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深浅主题" title="切换主题">☾</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> 不用把所有教程学完，先做出你的第一个作品</p>
+        <h1 id="hero-title">选一条航线，<br><em>边学边闯关。</em></h1>
+        <p class="hero-lead">从 AI 使用者到应用构建者，从模型原理到真实交付。系统会根据你的目标和基础，生成一条尽可能短、可验收的学习路径。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#choose">生成我的路线 <span aria-hidden="true">→</span></a>
+          <button class="button button-ghost" id="continue-button" type="button">继续上次进度</button>
+        </div>
+        <ul class="hero-points" aria-label="路线特点">
+          <li><span>✓</span> 最小前置</li>
+          <li><span>✓</span> 同类择一</li>
+          <li><span>✓</span> 项目验收</li>
+          <li><span>✓</span> 进度本地保存</li>
+        </ul>
+      </div>
+
+      <aside class="captain-card" aria-label="当前学习进度">
+        <div class="captain-topline">
+          <span class="live-dot"></span>
+          <span>航行档案</span>
+          <span class="save-state">已保存到本机</span>
+        </div>
+        <div class="rank-wrap">
+          <div class="rank-badge" id="rank-badge">L1</div>
+          <div>
+            <small>当前称号</small>
+            <strong id="rank-name">初航者</strong>
+          </div>
+          <div class="xp-total"><strong id="xp-total">0</strong><small> XP</small></div>
+        </div>
+        <div class="progress-meta">
+          <span id="current-route-label">尚未选择航线</span>
+          <span id="progress-percent">0%</span>
+        </div>
+        <div class="progress-track" aria-label="路线完成进度">
+          <span id="progress-bar" style="width: 0%"></span>
+        </div>
+        <div class="stat-grid">
+          <div><strong id="completed-count">0</strong><span>已过关</span></div>
+          <div><strong id="badge-count">0</strong><span>徽章</span></div>
+          <div><strong id="streak-count">0</strong><span>次行动</span></div>
+        </div>
+        <div class="next-quest" id="next-quest-summary">
+          <span class="mini-icon">◌</span>
+          <div><small>下一关</small><strong>先选择你的学习目标</strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="principles-strip" aria-label="培养方案原则">
+      <div><strong>01</strong><span>目标优先<small>先选要解决的问题</small></span></div>
+      <div><strong>02</strong><span>最小前置<small>需要时再补基础</small></span></div>
+      <div><strong>03</strong><span>少路线多分支<small>技术可以自由组合</small></span></div>
+      <div><strong>04</strong><span>作品验收<small>让结果证明能力</small></span></div>
+    </section>
+
+    <section class="chooser section-shell" id="choose" aria-labelledby="choose-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> STEP 01 · 领取任务</p>
+          <h2 id="choose-title">你想先成为哪种角色？</h2>
+        </div>
+        <p>路线不是终身选择。先选一个最近三个月最想完成的目标，随时可以回来切换。</p>
+      </div>
+
+      <div class="mission-grid" role="radiogroup" aria-label="选择学习目标">
+        <button class="mission-card" type="button" data-mission="productivity" role="radio" aria-checked="false">
+          <span class="mission-number">01</span>
+          <span class="mission-icon blue">✦</span>
+          <strong>AI 使用与提效</strong>
+          <span>把 AI 用在学习、办公、科研、写作和个人工作流中。</span>
+          <small>零代码可开始 · 约 2—4 周</small>
+        </button>
+        <button class="mission-card" type="button" data-mission="builder" role="radio" aria-checked="false">
+          <span class="mission-number">02</span>
+          <span class="mission-icon green">⌘</span>
+          <strong>AI 应用构建</strong>
+          <span>做出工作流、知识库、智能体、多模态或数据应用。</span>
+          <small>建议会基础 Python · 约 4—10 周</small>
+        </button>
+        <button class="mission-card" type="button" data-mission="model" role="radio" aria-checked="false">
+          <span class="mission-number">03</span>
+          <span class="mission-icon purple">◇</span>
+          <strong>模型与算法</strong>
+          <span>理解 LLM 原理、训练与推理，或进入专业算法方向。</span>
+          <small>需要编程与数学补给 · 约 8—16 周</small>
+        </button>
+        <button class="mission-card" type="button" data-mission="fde" role="radio" aria-checked="false">
+          <span class="mission-number">04</span>
+          <span class="mission-icon orange">↗</span>
+          <strong>FDE 预备路线</strong>
+          <span>从需求发现到可靠上线，把 AI 方案交付给真实客户。</span>
+          <small>建议已有开发基础 · 约 10—16 周</small>
+        </button>
+      </div>
+
+      <div class="route-config" id="route-config">
+        <label>
+          <span>我的当前基础</span>
+          <select id="level-select">
+            <option value="zero">零代码：还没有编程基础</option>
+            <option value="python">开发入门：会基础 Python</option>
+            <option value="developer">开发者：了解 API、Git 或 Web</option>
+            <option value="ml">算法入门：学过 ML / PyTorch</option>
+          </select>
+        </label>
+        <label id="branch-field">
+          <span>我想优先挑战</span>
+          <select id="branch-select"></select>
+        </label>
+        <button class="button button-primary generate-button" id="generate-route" type="button">生成闯关地图</button>
+      </div>
+    </section>
+
+    <section class="map-section" id="quest-map" aria-labelledby="map-title">
+      <div class="section-shell">
+        <div class="section-heading map-heading">
+          <div>
+            <p class="eyebrow"><span></span> STEP 02 · 开始闯关</p>
+            <h2 id="map-title">你的学习航线</h2>
+          </div>
+          <div class="map-tools">
+            <label class="compact-select">当前航线
+              <select id="route-switcher" aria-label="切换当前航线"></select>
+            </label>
+            <button class="text-button" id="reset-progress" type="button">重置本路线</button>
+          </div>
+        </div>
+
+        <div class="route-banner" id="route-banner">
+          <div class="route-banner-icon" id="route-banner-icon">?</div>
+          <div>
+            <small id="route-kicker">等待领取任务</small>
+            <h3 id="route-name">请先选择一个目标</h3>
+            <p id="route-description">系统会根据你的目标和当前基础生成推荐关卡。</p>
+          </div>
+          <div class="route-reward"><small>通关奖励</small><strong id="route-reward">路线徽章</strong></div>
+        </div>
+
+        <aside class="story-slot" id="story-slot" aria-labelledby="story-slot-title">
+          <div class="story-avatar" aria-hidden="true">✦</div>
+          <div class="story-copy">
+            <small>STORY · 嘉宾故事汇</small>
+            <h3 id="story-slot-title">这条航线将保留一个真实故事</h3>
+            <p id="story-slot-description">后续邀请方向嘉宾分享亲身经历、踩坑、转折和最终作品。</p>
+          </div>
+          <span class="story-status" id="story-slot-status">嘉宾待邀请</span>
+        </aside>
+
+        <div class="legend" aria-label="关卡图例">
+          <span><i class="legend-dot required"></i> 必达关卡</span>
+          <span><i class="legend-dot choice"></i> 同类择一</span>
+          <span><i class="legend-dot project"></i> 项目验收</span>
+          <span><i class="legend-dot optional"></i> 按需插件</span>
+        </div>
+
+        <div class="quest-map" id="quest-list" aria-live="polite"></div>
+
+        <section class="extension-panel" id="extension-panel" aria-labelledby="extension-title">
+          <div class="extension-heading">
+            <div>
+              <small>ADVANCED · 选修扩展</small>
+              <h3 id="extension-title">主线之外，继续向深处探索</h3>
+            </div>
+            <p>这些博客、论文、官方文档和 GitHub 仓库不计入主线完成度，建议先完成项目，再根据问题选择。</p>
+          </div>
+          <div class="extension-grid" id="extension-list"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="side-quests section-shell" id="side-quests" aria-labelledby="side-title">
+      <div class="section-heading compact">
+        <div>
+          <p class="eyebrow"><span></span> 自选支线</p>
+          <h2 id="side-title">把 AI 之外的知识，串成可选路线</h2>
+        </div>
+        <p>先做主线项目，遇到数据库、统计、工程、产品或安全问题时，再进入对应支线并把成果带回项目。</p>
+      </div>
+      <div class="side-grid" id="side-quest-list"></div>
+    </section>
+
+    <section class="advanced" id="advanced" aria-labelledby="advanced-title">
+      <div class="section-shell">
+        <div class="section-heading inverse">
+          <div>
+            <p class="eyebrow"><span></span> STEP 03 · 选择进阶方向</p>
+            <h2 id="advanced-title">会构建之后，你想把能力带到哪里？</h2>
+          </div>
+          <p>进阶不是统一终点。交付、经营、研究和社区贡献可以是并列的发展方向。</p>
+        </div>
+        <div class="advanced-grid">
+          <article class="advanced-card featured">
+            <div class="advanced-icon">F</div>
+            <p>FORWARD DEPLOYED ENGINEERING</p>
+            <h3>FDE · 真实场景交付</h3>
+            <span>需求发现 → 技术定界 → 快速原型 → 系统集成 → 可靠上线 → 采用复盘</span>
+            <button class="button button-light" type="button" data-jump-route="fde-delivery">查看 FDE 航线</button>
+          </article>
+          <article class="advanced-card">
+            <div class="advanced-icon">O</div>
+            <p>ONE PERSON COMPANY</p>
+            <h3>OPC · 商业与生产系统</h3>
+            <span>个人工作台、产品交付、业务闭环、方法论沉淀与生态共建。</span>
+            <span class="coming-tag">下一版本开放完整关卡</span>
+          </article>
+          <article class="advanced-card">
+            <div class="advanced-icon">R</div>
+            <p>RESEARCH & OPEN SOURCE</p>
+            <h3>研究与开源贡献</h3>
+            <span>复现实验、撰写技术报告、发布代码、参与 Datawhale 项目共建。</span>
+            <span class="coming-tag">可从任意技术路线进入</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-shell">
+      <p class="eyebrow"><span></span> 开始行动</p>
+      <h2>最好的学习路线，<br>是能让你持续做出作品的路线。</h2>
+      <a class="button button-primary" href="#choose">重新选择目标</a>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <span class="brand-mark" aria-hidden="true">🐳</span>
+      <div><strong>Datawhale AI 学习地图</strong><small>V3.1 交互原型 · 进度仅保存在当前浏览器</small></div>
+    </div>
+    <div class="footer-links">
+      <a href="curriculum-v3.1.md">阅读文档版</a>
+      <a href="https://github.com/datawhalechina" target="_blank" rel="noreferrer">Datawhale GitHub ↗</a>
+    </div>
+  </footer>
+
+  <dialog class="quest-dialog" id="quest-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" id="dialog-close" type="button" aria-label="关闭">×</button>
+    <div class="dialog-header">
+      <span class="dialog-icon" id="dialog-icon">✦</span>
+      <div>
+        <div class="dialog-labels" id="dialog-labels"></div>
+        <h2 id="dialog-title">关卡详情</h2>
+        <p id="dialog-summary"></p>
+      </div>
+    </div>
+    <div class="dialog-meta" id="dialog-meta"></div>
+    <div class="dialog-columns">
+      <section>
+        <h3>通关目标</h3>
+        <ul class="objective-list" id="dialog-objectives"></ul>
+        <h3>推荐资源</h3>
+        <div class="resource-list" id="dialog-resources"></div>
+      </section>
+      <section class="check-panel">
+        <h3>验收清单</h3>
+        <p>真正完成这些产出后，再领取经验值。</p>
+        <div class="check-list" id="dialog-checklist"></div>
+      </section>
+    </div>
+    <div class="dialog-actions">
+      <span id="dialog-status">完成清单后即可通关</span>
+      <button class="button button-primary" id="complete-quest" type="button" disabled>完成关卡并领取 XP</button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
