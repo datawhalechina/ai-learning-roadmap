@@ -1,9 +1,9 @@
-# Datawhale 人工智能培养方案 3.1
+# Datawhale 人工智能培养方案 3.0
 
 ## 课程摘要
 
 > **Note**  
-> 版本号：V3.1  
+> 版本号：V3.0
 > 本培养方案面向希望系统学习人工智能、构建 AI 应用、使用 AI 提升生产力的学习者。培养方案按照学习目标组织路线，并为每个阶段提供推荐课程、可选分支和项目验收标准。学习者不需要完成表中的全部课程，应根据自己的目标选择一条主线，再按项目需要补充相关知识。
 
 ## 前言
@@ -14,7 +14,7 @@
 
 到了大模型时代，学习目标变得更加多元：有人希望理解 Transformer、预训练、后训练和推理部署；有人希望构建 RAG、Agent、MCP 和 AI 工作流；也有人并不准备训练模型，但希望把 AI 用在学习、办公、科研、写作、编程和个人生产系统中。
 
-因此，3.1 版本希望回答一个更实际的问题：在今天的 AI 环境中，一个人应该如何根据自己的目标选择学习路线，并逐步做出真正能帮助自己和他人的作品？
+因此，3.0 版本希望回答一个更实际的问题：在今天的 AI 环境中，一个人应该如何根据自己的目标选择学习路线，并逐步做出真正能帮助自己和他人的作品？
 
 本培养方案主要由以下部分组成：
 
@@ -23,7 +23,7 @@
 - **能力标准**：为每个阶段提供可观察、可验收的学习产出。
 - **项目实践**：让课程学习最终收束到一个可以运行、可以解释、可以复现、可以评估的项目。
 
-3.1 版本继续遵循“Datawhale 内部项目优先、外部优秀资源补位”的收录原则。当 Datawhale 已有较完整项目时，优先作为主线资源；当关键模块暂时缺少内部项目时，再补充官方文档、经典课程或主流开源项目。
+3.0 版本继续遵循“Datawhale 内部项目优先、外部优秀资源补位”的收录原则。当 Datawhale 已有较完整项目时，优先作为主线资源；当关键模块暂时缺少内部项目时，再补充官方文档、经典课程或主流开源项目。
 
 ## 如何阅读课程表
 
@@ -64,7 +64,7 @@
 
 培养方案回答“学什么、怎么学、用什么项目学”，能力标准回答“学到什么程度算过关”。
 
-3.1 版本保留 OPC 九级人才能力标准作为个人生产与商业交付方向的参考，同时不把它作为所有研究、算法和工程路线唯一的高低排序。对于多数学习者，L1—L6 可以作为通用的学习与构建阶段；L7—L9 是面向业务闭环、系统协作和生态贡献的进阶分支。
+3.0 版本保留 OPC 九级人才能力标准作为个人生产与商业交付方向的参考，同时不把它作为所有研究、算法和工程路线唯一的高低排序。对于多数学习者，L1—L6 可以作为通用的学习与构建阶段；L7—L9 是面向业务闭环、系统协作和生态贡献的进阶分支。
 
 | 阶段 | 等级 | 能力目标 | 对应学习内容 |
 | --- | --- | --- | --- |
@@ -91,15 +91,15 @@ Datawhale 有不少项目会以“某某书”或昵称传播。为了方便学�
 
 | 常见叫法 | 正式项目 / 书名 | 适合放入路线 | 说明 |
 | --- | --- | --- | --- |
-| 南瓜书 | `pumpkin-book` | 机器学习理论 | 《机器学习》（西瓜书）公式详解 |
-| 西瓜书代码实战 | `machine-learning-toy-code` | 机器学习实践 | 机器学习经典算法代码实践 |
-| 宝箱书 | `key-book` | 机器学习理论进阶 | 《机器学习理论导引》的证明、案例和概念补充 |
-| 熊猫书 | `joyful-pandas` | 数据分析 | Pandas 中文教程，适合系统掌握表格数据处理 |
-| 葡萄书 | `grape-book` | 图学习 / GNN | 图深度学习教程 |
-| 蘑菇书 | `easy-rl` | 强化学习 | 强化学习中文教程 |
-| 苹果书 | `leedl-tutorial` | 深度学习 | 李宏毅深度学习教程 |
-| 杨桃书 | `happy-llm` | 大模型原理与实践 | 从 NLP、Transformer、训练到 RAG、Agent 的系统路线 |
-| 香蕉书 | `happy-figure` | AI 科研绘图 | 科研绘图、提示策略、矢量化后处理和期刊合规 |
+| 南瓜书 | [`pumpkin-book`](https://github.com/datawhalechina/pumpkin-book) | 机器学习理论 | 《机器学习》（西瓜书）公式详解 |
+| 西瓜书代码实战 | [`machine-learning-toy-code`](https://github.com/datawhalechina/machine-learning-toy-code) | 机器学习实践 | 机器学习经典算法代码实践 |
+| 宝箱书 | [`key-book`](https://github.com/datawhalechina/key-book) | 机器学习理论进阶 | 《机器学习理论导引》的证明、案例和概念补充 |
+| 熊猫书 | [`joyful-pandas`](https://github.com/datawhalechina/joyful-pandas) | 数据分析 | Pandas 中文教程，适合系统掌握表格数据处理 |
+| 葡萄书 | [`grape-book`](https://github.com/datawhalechina/grape-book) | 图学习 / GNN | 图深度学习教程 |
+| 蘑菇书 | [`easy-rl`](https://github.com/datawhalechina/easy-rl) | 强化学习 | 强化学习中文教程 |
+| 苹果书 | [`leedl-tutorial`](https://github.com/datawhalechina/leedl-tutorial) | 深度学习 | 李宏毅深度学习教程 |
+| 杨桃书 | [`happy-llm`](https://github.com/datawhalechina/happy-llm) | 大模型原理与实践 | 从 NLP、Transformer、训练到 RAG、Agent 的系统路线 |
+| 香蕉书 | [`happy-figure`](https://github.com/datawhalechina/happy-figure) | AI 科研绘图 | 科研绘图、提示策略、矢量化后处理和期刊合规 |
 
 # 专业方向
 
@@ -115,9 +115,9 @@ Datawhale 有不少项目会以“某某书”或昵称传播。为了方便学�
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 必达 | AI 工具素养 | AI Skills for Everyone | `ai-skills-for-everyone` |
-| 择一 | Prompt 入门 | AI Prompting for Everyone | `ai-prompting-for-everyone` |
-| 择一 | Prompt 工程 | 构建“听话”提示词教程 | `smart-prompt` |
+| 必达 | AI 工具素养 | AI Skills for Everyone | [`ai-skills-for-everyone`](https://github.com/datawhalechina/ai-skills-for-everyone) |
+| 择一 | Prompt 入门 | AI Prompting for Everyone | [`ai-prompting-for-everyone`](https://github.com/datawhalechina/ai-prompting-for-everyone) |
+| 择一 | Prompt 工程 | 构建“听话”提示词教程 | [`smart-prompt`](https://github.com/datawhalechina/smart-prompt) |
 | 必达 | 负责任使用 | 模型边界、事实核查、隐私与版权基础 | 培养方案公共任务 |
 | 实践 | AI 素养任务 | 完成一次带来源核查的 AI 辅助任务 | 公共起点验收项目 |
 
@@ -140,13 +140,13 @@ Datawhale 有不少项目会以“某某书”或昵称传播。为了方便学�
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 按需 | Python 基础 | 聪明办法学 Python | `learn-python-the-smart-way` |
-| 必达 | API 与 JSON | 使用模型 API 完成结构化调用 | `llm-cookbook` 入门章节 |
-| 按需 | Git | Git 教程 | `faster-git` |
-| 按需 | Docker | Docker 教程 | `docker-notes` |
-| 按需 | 数据分析 | 熊猫书：Joyful Pandas | `joyful-pandas` |
-| 按需 | SQL | 从 0 到 1 掌握 SQL | `wonderful-sql` |
-| 按需 | 科学计算 | Python 科学计算教程 | `scientific-computing` |
+| 按需 | Python 基础 | 聪明办法学 Python | [`learn-python-the-smart-way`](https://github.com/datawhalechina/learn-python-the-smart-way) |
+| 必达 | API 与 JSON | 使用模型 API 完成结构化调用 | [`llm-cookbook`](https://github.com/datawhalechina/llm-cookbook) 入门章节 |
+| 按需 | Git | Git 教程 | [`faster-git`](https://github.com/datawhalechina/faster-git) |
+| 按需 | Docker | Docker 教程 | [`docker-notes`](https://github.com/datawhalechina/docker-notes) |
+| 按需 | 数据分析 | 熊猫书：Joyful Pandas | [`joyful-pandas`](https://github.com/datawhalechina/joyful-pandas) |
+| 按需 | SQL | 从 0 到 1 掌握 SQL | [`wonderful-sql`](https://github.com/datawhalechina/wonderful-sql) |
+| 按需 | 科学计算 | Python 科学计算教程 | [`scientific-computing`](https://github.com/datawhalechina/scientific-computing) |
 
 ### 如何判断是否需要学习
 
@@ -174,16 +174,16 @@ Datawhale 有不少项目会以“某某书”或昵称传播。为了方便学�
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 必达 | AI 工具素养 | AI Skills for Everyone | `ai-skills-for-everyone` |
-| 择一 | Prompt | AI Prompting for Everyone / Smart Prompt | `ai-prompting-for-everyone` / `smart-prompt` |
+| 必达 | AI 工具素养 | AI Skills for Everyone | [`ai-skills-for-everyone`](https://github.com/datawhalechina/ai-skills-for-everyone) |
+| 择一 | Prompt | AI Prompting for Everyone / Smart Prompt | [`ai-prompting-for-everyone`](https://github.com/datawhalechina/ai-prompting-for-everyone) / [`smart-prompt`](https://github.com/datawhalechina/smart-prompt) |
 | 必达 | 场景分析 | 识别可改造任务，拆解现有工作流程 | 路线实践任务 |
-| 择一 | 低代码应用 | Self Dify / Coze AI 私人提效助理 | `self-dify` / `coze-ai-assistant` |
-| 按需 | 跨工具自动化 | Handy n8n | `handy-n8n` |
-| 按需 | 论文阅读 | Whale Paper | `whale-paper` |
-| 按需 | 个人知识系统 | Whale Paper Pal | `whale-paper-pal` |
-| 按需 | 科研绘图 | 香蕉书：AI 科研绘图 | `happy-figure` |
-| 按需 | 技术博客 | Vibe Blog | `vibe-blog` |
-| 按需 | 视频资料整理 | Video Devour | `video-devour` |
+| 择一 | 低代码应用 | Self Dify / Coze AI 私人提效助理 | [`self-dify`](https://github.com/datawhalechina/self-dify) / [`coze-ai-assistant`](https://github.com/datawhalechina/coze-ai-assistant) |
+| 按需 | 跨工具自动化 | Handy n8n | [`handy-n8n`](https://github.com/datawhalechina/handy-n8n) |
+| 按需 | 论文阅读 | Whale Paper | [`whale-paper`](https://github.com/datawhalechina/whale-paper) |
+| 按需 | 个人知识系统 | Whale Paper Pal | [`whale-paper-pal`](https://github.com/datawhalechina/whale-paper-pal) |
+| 按需 | 科研绘图 | 香蕉书：AI 科研绘图 | [`happy-figure`](https://github.com/datawhalechina/happy-figure) |
+| 按需 | 技术博客 | Vibe Blog | [`vibe-blog`](https://github.com/datawhalechina/vibe-blog) |
+| 按需 | 视频资料整理 | Video Devour | [`video-devour`](https://github.com/datawhalechina/video-devour) |
 | 实践 | 个人工作流 | 我的 AI 生产力系统 | 综合项目 |
 
 ### 验收标准
@@ -215,8 +215,8 @@ AI 应用开发路线关注如何把模型能力组合成一个真正可用的�
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 择一 | LLM 应用入门 | 面向开发者的 LLM 入门教程 | `llm-cookbook` |
-| 择一 | 项目式入门 | 动手学大模型应用开发 | `llm-universe` |
+| 择一 | LLM 应用入门 | 面向开发者的 LLM 入门教程 | [`llm-cookbook`](https://github.com/datawhalechina/llm-cookbook) |
+| 择一 | 项目式入门 | 动手学大模型应用开发 | [`llm-universe`](https://github.com/datawhalechina/llm-universe) |
 | 必达 | 结构化输出 | API、JSON、错误处理与成本记录 | 共同实践任务 |
 | 实践 | 第一个 AI 功能 | 命令行或网页形式的单功能助手 | 共同验收项目 |
 
@@ -228,10 +228,10 @@ AI 应用开发路线关注如何把模型能力组合成一个真正可用的�
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 择一 | Dify | Self Dify | `self-dify` |
-| 择一 | Coze | Coze AI 私人提效助理 | `coze-ai-assistant` |
-| 按需 | n8n | Handy n8n | `handy-n8n` |
-| 按需 | 跨设备助手 | OpenClaw 学习教程 | `openclaw-tutorial` |
+| 择一 | Dify | Self Dify | [`self-dify`](https://github.com/datawhalechina/self-dify) |
+| 择一 | Coze | Coze AI 私人提效助理 | [`coze-ai-assistant`](https://github.com/datawhalechina/coze-ai-assistant) |
+| 按需 | n8n | Handy n8n | [`handy-n8n`](https://github.com/datawhalechina/handy-n8n) |
+| 按需 | 跨设备助手 | OpenClaw 学习教程 | [`openclaw-tutorial`](https://github.com/datawhalechina/openclaw-tutorial) |
 | 实践 | 业务工作流 | 可交付的自动化工作流 | 综合项目 |
 
 Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择一个即可。n8n 更适合需要定时任务、Webhook 和跨系统自动化的场景，不要求所有学习者统一前置。
@@ -252,16 +252,16 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 必达 | RAG 快速入门 | 动手学大模型应用开发 | `llm-universe` |
-| 必达 | RAG 系统主线 | RAG 技术全栈指南 | `all-in-rag` |
-| 择一 | 向量数据库 | 从零开始的向量数据库原理与实践 | `easy-vecdb` |
-| 择一 | 向量检索 | 向量检索与 RAG 实践 | `what-is-vs` |
-| 按需 | 信息检索 | 信息检索导论 | `fun-ir` |
-| 按需 | 数据到 AI | Easy Data x AI | `easy-data-x-ai` |
-| 实践 | RAG 框架 | Wow RAG | `wow-rag` |
+| 必达 | RAG 快速入门 | 动手学大模型应用开发 | [`llm-universe`](https://github.com/datawhalechina/llm-universe) |
+| 必达 | RAG 系统主线 | RAG 技术全栈指南 | [`all-in-rag`](https://github.com/datawhalechina/all-in-rag) |
+| 择一 | 向量数据库 | 从零开始的向量数据库原理与实践 | [`easy-vecdb`](https://github.com/datawhalechina/easy-vecdb) |
+| 择一 | 向量检索 | 向量检索与 RAG 实践 | [`what-is-vs`](https://github.com/datawhalechina/what-is-vs) |
+| 按需 | 信息检索 | 信息检索导论 | [`fun-ir`](https://github.com/datawhalechina/fun-ir) |
+| 按需 | 数据到 AI | Easy Data x AI | [`easy-data-x-ai`](https://github.com/datawhalechina/easy-data-x-ai) |
+| 实践 | RAG 框架 | Wow RAG | [`wow-rag`](https://github.com/datawhalechina/wow-rag) |
 | 实践 | 知识应用 | 有依据的知识助手 | 综合项目 |
 
-`llm-universe` 适合作为个人知识库快速入门，`all-in-rag` 作为系统主线。`easy-vecdb` 与 `what-is-vs` 都包含向量检索相关内容，初学者不需要同时完成，可根据自己更关注数据库原理还是检索实践进行选择。
+[`llm-universe`](https://github.com/datawhalechina/llm-universe) 适合作为个人知识库快速入门，[`all-in-rag`](https://github.com/datawhalechina/all-in-rag) 作为系统主线。[`easy-vecdb`](https://github.com/datawhalechina/easy-vecdb) 与 [`what-is-vs`](https://github.com/datawhalechina/what-is-vs) 都包含向量检索相关内容，初学者不需要同时完成，可根据自己更关注数据库原理还是检索实践进行选择。
 
 #### 进阶选修与扩展材料
 
@@ -280,18 +280,18 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 参考 | Agent 资料导航 | AI Agent 学习路线与资料库 | `Agent-Learning-Hub` |
-| 必达 | Agent 原理与实践 | 从零开始构建智能体 | `hello-agents` |
-| 择一 | Agent 框架 | Wow Agent | `wow-agent` |
-| 择一 | LangGraph 实战 | Deep Agents 实战 | `deepagents-in-action` |
-| 择一 | Langent 教程 | Easy Langent | `easy-langent` |
-| 必达 | MCP | MCP 极简开发 | `mcp-lite-dev` |
-| 按需 | Agent Skills | Agent Skills with Anthropic 中文整理 | `agent-skills-with-anthropic` |
-| 按需 | Harness 工程 | Self Harness | `self-harness` |
-| 按需 | 多智能体 | Handy Multi-Agent | `handy-multi-agent` |
+| 参考 | Agent 资料导航 | AI Agent 学习路线与资料库 | [`Agent-Learning-Hub`](https://github.com/datawhalechina/Agent-Learning-Hub) |
+| 必达 | Agent 原理与实践 | 从零开始构建智能体 | [`hello-agents`](https://github.com/datawhalechina/hello-agents) |
+| 择一 | Agent 框架 | Wow Agent | [`wow-agent`](https://github.com/datawhalechina/wow-agent) |
+| 择一 | LangGraph 实战 | Deep Agents 实战 | [`deepagents-in-action`](https://github.com/datawhalechina/deepagents-in-action) |
+| 择一 | Langent 教程 | Easy Langent | [`easy-langent`](https://github.com/datawhalechina/easy-langent) |
+| 必达 | MCP | MCP 极简开发 | [`mcp-lite-dev`](https://github.com/datawhalechina/mcp-lite-dev) |
+| 按需 | Agent Skills | Agent Skills with Anthropic 中文整理 | [`agent-skills-with-anthropic`](https://github.com/datawhalechina/agent-skills-with-anthropic) |
+| 按需 | Harness 工程 | Self Harness | [`self-harness`](https://github.com/datawhalechina/self-harness) |
+| 按需 | 多智能体 | Handy Multi-Agent | [`handy-multi-agent`](https://github.com/datawhalechina/handy-multi-agent) |
 | 实践 | Agent 应用 | 可控的任务智能体 | 综合项目 |
 
-`hello-agents` 作为原理与实践主线。框架类教程选择一门完成即可；只有项目确实需要复杂协作时，再进入 Harness 或多智能体内容。
+[`hello-agents`](https://github.com/datawhalechina/hello-agents) 作为原理与实践主线。框架类教程选择一门完成即可；只有项目确实需要复杂协作时，再进入 Harness 或多智能体内容。
 
 #### 进阶选修与扩展材料
 
@@ -313,9 +313,9 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
 | 必达 | 多模态 API | 图片、音频、视频输入与结构化输出 | 主流模型官方 API 文档 |
-| 按需 | 视觉模型 | Hugging Vision | `hugging-vis` |
-| 按需 | 音频模型 | Hugging Audio | `hugging-audio` |
-| 按需 | 视频资料 | Video Devour | `video-devour` |
+| 按需 | 视觉模型 | Hugging Vision | [`hugging-vis`](https://github.com/datawhalechina/hugging-vis) |
+| 按需 | 音频模型 | Hugging Audio | [`hugging-audio`](https://github.com/datawhalechina/hugging-audio) |
+| 按需 | 视频资料 | Video Devour | [`video-devour`](https://github.com/datawhalechina/video-devour) |
 | 实践 | 多模态资料助手 | 处理图片、音频或视频并生成有依据的结果 | 综合项目 |
 
 #### 进阶选修与扩展材料
@@ -338,9 +338,9 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 按需 | SQL | 从 0 到 1 掌握 SQL | `wonderful-sql` |
-| 按需 | 数据分析 | 熊猫书：Joyful Pandas | `joyful-pandas` |
-| 必达 | 数据到 AI | Easy Data x AI | `easy-data-x-ai` |
+| 按需 | SQL | 从 0 到 1 掌握 SQL | [`wonderful-sql`](https://github.com/datawhalechina/wonderful-sql) |
+| 按需 | 数据分析 | 熊猫书：Joyful Pandas | [`joyful-pandas`](https://github.com/datawhalechina/joyful-pandas) |
+| 必达 | 数据到 AI | Easy Data x AI | [`easy-data-x-ai`](https://github.com/datawhalechina/easy-data-x-ai) |
 | 必达 | 数据权限与口径 | Schema、指标定义、只读权限与查询审计 | 分支实践任务 |
 | 实践 | 数据问答助手 | 自然语言查询、结果解释与图表报告 | 综合项目 |
 
@@ -375,7 +375,7 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 小许的 RAG Demo 在本地运行得很好，但一上线就出现接口超时、答案不稳定、日志缺失、费用不可控和权限过大等问题。他发现，从 Demo 到可交付系统之间，缺少的不是另一个模型框架，而是一组贯穿开发过程的质量关卡。
 
-因此，3.1 版本不再把“AI 工程化、评测与安全”作为一条内容混杂的独立路线，而是把它拆成所有应用项目都需要逐步通过的可靠交付关卡。
+因此，3.0 版本不再把“AI 工程化、评测与安全”作为一条内容混杂的独立路线，而是把它拆成所有应用项目都需要逐步通过的可靠交付关卡。
 
 ### 质量关卡
 
@@ -384,12 +384,12 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 | 必达 | 可评测 | 建立最小评测集，定义成功标准和基线 | All-in-RAG 评测章节、OpenAI Evals |
 | 必达 | 可观察 | 记录请求、工具调用、错误、延迟和成本 | Full Stack Deep Learning 相关资料 |
 | 必达 | 可控制 | 处理超时、重试、缓存、降级和人工确认 | 项目工程实践 |
-| 必达 | 可部署 | 提供依赖、配置、部署和回滚说明 | `docker-notes`、托管平台官方文档 |
+| 必达 | 可部署 | 提供依赖、配置、部署和回滚说明 | [`docker-notes`](https://github.com/datawhalechina/docker-notes)、托管平台官方文档 |
 | 必达 | 安全与治理 | 检查权限、隐私、提示注入和敏感信息泄漏 | OWASP GenAI Security Top 10 |
-| 按需 | 本地模型 | 动手学 Ollama | `handy-ollama` |
-| 按需 | 推理部署 | LLM Deploy | `llm-deploy` |
-| 按需 | GPU | Hello GPU | `hello-gpu` |
-| 按需 | ROCm | Hello ROCm | `hello-rocm` |
+| 按需 | 本地模型 | 动手学 Ollama | [`handy-ollama`](https://github.com/datawhalechina/handy-ollama) |
+| 按需 | 推理部署 | LLM Deploy | [`llm-deploy`](https://github.com/datawhalechina/llm-deploy) |
+| 按需 | GPU | Hello GPU | [`hello-gpu`](https://github.com/datawhalechina/hello-gpu) |
+| 按需 | ROCm | Hello ROCm | [`hello-rocm`](https://github.com/datawhalechina/hello-rocm) |
 
 ### 验收标准
 
@@ -422,11 +422,11 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 按需 | 数学基础 | 人工智能的数学基础 | `math-for-ai` |
-| 必达 | 深度学习理论 | 李宏毅深度学习教程（苹果书） | `leedl-tutorial` |
-| 必达 | 深度学习框架 | 深入浅出 PyTorch | `thorough-pytorch` |
-| 按需 | 机器学习理论 | 南瓜书：《机器学习》公式详解 | `pumpkin-book` |
-| 按需 | 机器学习实践 | 西瓜书代码实战 | `machine-learning-toy-code` |
+| 按需 | 数学基础 | 人工智能的数学基础 | [`math-for-ai`](https://github.com/datawhalechina/math-for-ai) |
+| 必达 | 深度学习理论 | 李宏毅深度学习教程（苹果书） | [`leedl-tutorial`](https://github.com/datawhalechina/leedl-tutorial) |
+| 必达 | 深度学习框架 | 深入浅出 PyTorch | [`thorough-pytorch`](https://github.com/datawhalechina/thorough-pytorch) |
+| 按需 | 机器学习理论 | 南瓜书：《机器学习》公式详解 | [`pumpkin-book`](https://github.com/datawhalechina/pumpkin-book) |
+| 按需 | 机器学习实践 | 西瓜书代码实战 | [`machine-learning-toy-code`](https://github.com/datawhalechina/machine-learning-toy-code) |
 
 数学知识可以围绕注意力、损失函数、优化、评测等具体任务按需补齐，不建议把全部数学课程设置为长期统一前置。
 
@@ -434,22 +434,22 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 择一 | 大模型通识 | 大模型基础：一文了解大模型基础知识 | `so-large-lm` |
-| 择一 | 大模型入门 | 理工科大模型入门实训课程 | `llm-preview` |
-| 按需 | NLP 到 LLM | 从 NLP 到 LLM 的算法全栈教程 | `base-llm` |
-| 必达 | LLM 系统主线 | 杨桃书：Happy-LLM | `happy-llm` |
-| 择一 | 从零构建 | 从 0 构建大语言模型 | `llms-from-scratch-cn` |
-| 择一 | 白盒构建 | 大模型白盒子构建指南 | `tiny-universe` |
-| 按需 | 训练系统进阶 | 系统性大语言模型构建课程 | `diy-llm` |
-| 按需 | 微调与部署 | 开源大模型食用指南 | `self-llm` |
-| 按需 | 本地部署 | 动手学 Ollama | `handy-ollama` |
-| 按需 | 推理部署 | 大模型推理和部署理论与实践 | `llm-deploy` |
-| 按需 | 后训练 | Post-Training for LLMs 中文整理 | `post-training-of-llms` |
-| 按需 | 前沿解读 | DeepSeek 系列工作解读、扩展和复现 | `unlock-deepseek` |
-| 按需 | 推理机制 | 推理王国 | `reasoning-kingdom` |
+| 择一 | 大模型通识 | 大模型基础：一文了解大模型基础知识 | [`so-large-lm`](https://github.com/datawhalechina/so-large-lm) |
+| 择一 | 大模型入门 | 理工科大模型入门实训课程 | [`llm-preview`](https://github.com/datawhalechina/llm-preview) |
+| 按需 | NLP 到 LLM | 从 NLP 到 LLM 的算法全栈教程 | [`base-llm`](https://github.com/datawhalechina/base-llm) |
+| 必达 | LLM 系统主线 | 杨桃书：Happy-LLM | [`happy-llm`](https://github.com/datawhalechina/happy-llm) |
+| 择一 | 从零构建 | 从 0 构建大语言模型 | [`llms-from-scratch-cn`](https://github.com/datawhalechina/llms-from-scratch-cn) |
+| 择一 | 白盒构建 | 大模型白盒子构建指南 | [`tiny-universe`](https://github.com/datawhalechina/tiny-universe) |
+| 按需 | 训练系统进阶 | 系统性大语言模型构建课程 | [`diy-llm`](https://github.com/datawhalechina/diy-llm) |
+| 按需 | 微调与部署 | 开源大模型食用指南 | [`self-llm`](https://github.com/datawhalechina/self-llm) |
+| 按需 | 本地部署 | 动手学 Ollama | [`handy-ollama`](https://github.com/datawhalechina/handy-ollama) |
+| 按需 | 推理部署 | 大模型推理和部署理论与实践 | [`llm-deploy`](https://github.com/datawhalechina/llm-deploy) |
+| 按需 | 后训练 | Post-Training for LLMs 中文整理 | [`post-training-of-llms`](https://github.com/datawhalechina/post-training-of-llms) |
+| 按需 | 前沿解读 | DeepSeek 系列工作解读、扩展和复现 | [`unlock-deepseek`](https://github.com/datawhalechina/unlock-deepseek) |
+| 按需 | 推理机制 | 推理王国 | [`reasoning-kingdom`](https://github.com/datawhalechina/reasoning-kingdom) |
 | 实践 | 模型实验 | 可复现的模型训练、微调或推理实验 | 综合项目 |
 
-`happy-llm` 作为系统主线；`llms-from-scratch-cn` 与 `tiny-universe` 选择一个完成白盒实践；`diy-llm` 更适合希望继续进入训练系统、分布式训练和推理优化的学习者。
+[`happy-llm`](https://github.com/datawhalechina/happy-llm) 作为系统主线；[`llms-from-scratch-cn`](https://github.com/datawhalechina/llms-from-scratch-cn) 与 [`tiny-universe`](https://github.com/datawhalechina/tiny-universe) 选择一个完成白盒实践；[`diy-llm`](https://github.com/datawhalechina/diy-llm) 更适合希望继续进入训练系统、分布式训练和推理优化的学习者。
 
 ### 进阶选修与扩展材料
 
@@ -474,20 +474,20 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 专业方向 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 择一 | 数据竞赛 | Competition Baseline | `competition-baseline` |
-| 按需 | 大数据 | Datawhale 大数据处理导论 | `juicy-bigdata` |
-| 择一 | 计算机视觉 | 动手学 CV-PyTorch | `dive-into-cv-pytorch` |
-| 按需 | CV 检测 | YOLO Master | `yolo-master` |
-| 按需 | OpenMMLab | OpenMMLab Tutorial | `openmmlab-tutorial` |
-| 择一 | 推荐系统 | 推荐系统入门教程 | `fun-rec` |
-| 实践 | 推荐系统 | Torch-RecHub | `torch-rechub` |
-| 择一 | 强化学习 | 强化学习中文教程（蘑菇书） | `easy-rl` |
-| 实践 | 强化学习 | JoyRL Book | `joyrl-book` |
-| 择一 | 图深度学习 | 图深度学习（葡萄书） | `grape-book` |
-| 按需 | AI 安全 | 网络安全中的人工智能方法 | `ml-for-security` |
-| 按需 | 医学影像 | 医学影像处理开源教程 | `med-imaging-primer` |
-| 按需 | 金融量化 | Quant for Beginners / Whale Quant | `quant-for-beginners` / `whale-quant` |
-| 参考 | AGI 路径 | Path2AGI | `Path2AGI` |
+| 择一 | 数据竞赛 | Competition Baseline | [`competition-baseline`](https://github.com/datawhalechina/competition-baseline) |
+| 按需 | 大数据 | Datawhale 大数据处理导论 | [`juicy-bigdata`](https://github.com/datawhalechina/juicy-bigdata) |
+| 择一 | 计算机视觉 | 动手学 CV-PyTorch | [`dive-into-cv-pytorch`](https://github.com/datawhalechina/dive-into-cv-pytorch) |
+| 按需 | CV 检测 | YOLO Master | [`yolo-master`](https://github.com/datawhalechina/yolo-master) |
+| 按需 | OpenMMLab | OpenMMLab Tutorial | [`openmmlab-tutorial`](https://github.com/datawhalechina/openmmlab-tutorial) |
+| 择一 | 推荐系统 | 推荐系统入门教程 | [`fun-rec`](https://github.com/datawhalechina/fun-rec) |
+| 实践 | 推荐系统 | Torch-RecHub | [`torch-rechub`](https://github.com/datawhalechina/torch-rechub) |
+| 择一 | 强化学习 | 强化学习中文教程（蘑菇书） | [`easy-rl`](https://github.com/datawhalechina/easy-rl) |
+| 实践 | 强化学习 | JoyRL Book | [`joyrl-book`](https://github.com/datawhalechina/joyrl-book) |
+| 择一 | 图深度学习 | 图深度学习（葡萄书） | [`grape-book`](https://github.com/datawhalechina/grape-book) |
+| 按需 | AI 安全 | 网络安全中的人工智能方法 | [`ml-for-security`](https://github.com/datawhalechina/ml-for-security) |
+| 按需 | 医学影像 | 医学影像处理开源教程 | [`med-imaging-primer`](https://github.com/datawhalechina/med-imaging-primer) |
+| 按需 | 金融量化 | Quant for Beginners / Whale Quant | [`quant-for-beginners`](https://github.com/datawhalechina/quant-for-beginners) / [`whale-quant`](https://github.com/datawhalechina/whale-quant) |
+| 参考 | AGI 路径 | Path2AGI | [`Path2AGI`](https://github.com/datawhalechina/Path2AGI) |
 
 ### 项目验收
 
@@ -521,10 +521,10 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 必达 | 多模态大模型 | Start MLLM | `start-mllm` |
-| 按需 | 视觉模型 | Hugging Vision | `hugging-vis` |
-| 按需 | 音频模型 | Hugging Audio | `hugging-audio` |
-| 按需 | 音乐生成 | MusicLM Universe | `musiclm-universe` |
+| 必达 | 多模态大模型 | Start MLLM | [`start-mllm`](https://github.com/datawhalechina/start-mllm) |
+| 按需 | 视觉模型 | Hugging Vision | [`hugging-vis`](https://github.com/datawhalechina/hugging-vis) |
+| 按需 | 音频模型 | Hugging Audio | [`hugging-audio`](https://github.com/datawhalechina/hugging-audio) |
+| 按需 | 音乐生成 | MusicLM Universe | [`musiclm-universe`](https://github.com/datawhalechina/musiclm-universe) |
 | 实践 | 多模态应用 | 多模态资料助手 | 综合项目 |
 
 ## 具身智能
@@ -541,11 +541,11 @@ Dify 和 Coze 主要用于完成同类的低代码入门目标，初学者选择
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 必达 | 具身智能 | Every Embodied | `every-embodied` |
-| 必达 | 具身智能工程 | Dive into Embodied AI | `dive-into-embodied-ai` |
-| 按需 | World Model | Learn World Model | `learn-world-model` |
-| 实践 | 机器人教程 | Hello Robotics | `hello-robotics` |
-| 实践 | AI 语音小车 | Whale Bot | `whale-bot` |
+| 必达 | 具身智能 | Every Embodied | [`every-embodied`](https://github.com/datawhalechina/every-embodied) |
+| 必达 | 具身智能工程 | Dive into Embodied AI | [`dive-into-embodied-ai`](https://github.com/datawhalechina/dive-into-embodied-ai) |
+| 按需 | World Model | Learn World Model | [`learn-world-model`](https://github.com/datawhalechina/learn-world-model) |
+| 实践 | 机器人教程 | Hello Robotics | [`hello-robotics`](https://github.com/datawhalechina/hello-robotics) |
+| 实践 | AI 语音小车 | Whale Bot | [`whale-bot`](https://github.com/datawhalechina/whale-bot) |
 | 实践 | 具身项目 | 感知、决策、控制或仿真链路 | 综合项目 |
 
 ## FDE 预备路线
@@ -595,12 +595,12 @@ OPC 路线对应从个人效率到产品交付、业务闭环和生态贡献的�
 
 | 学习关系 | 课程类型 | 课程名称 | 课程资料 |
 | --- | --- | --- | --- |
-| 必达 | AI 工具素养 | AI Skills for Everyone | `ai-skills-for-everyone` |
-| 按需 | 个人知识系统 | Whale Paper Pal | `whale-paper-pal` |
-| 必达 | 工作流 | Handy n8n | `handy-n8n` |
-| 择一 | AI 应用 | Self Dify / Coze AI Assistant | `self-dify` / `coze-ai-assistant` |
-| 实践 | 内容生产 | Vibe Blog | `vibe-blog` |
-| 实践 | 产品设计 | VC Lab | `vc-lab` |
+| 必达 | AI 工具素养 | AI Skills for Everyone | [`ai-skills-for-everyone`](https://github.com/datawhalechina/ai-skills-for-everyone) |
+| 按需 | 个人知识系统 | Whale Paper Pal | [`whale-paper-pal`](https://github.com/datawhalechina/whale-paper-pal) |
+| 必达 | 工作流 | Handy n8n | [`handy-n8n`](https://github.com/datawhalechina/handy-n8n) |
+| 择一 | AI 应用 | Self Dify / Coze AI Assistant | [`self-dify`](https://github.com/datawhalechina/self-dify) / [`coze-ai-assistant`](https://github.com/datawhalechina/coze-ai-assistant) |
+| 实践 | 内容生产 | Vibe Blog | [`vibe-blog`](https://github.com/datawhalechina/vibe-blog) |
+| 实践 | 产品设计 | VC Lab | [`vc-lab`](https://github.com/datawhalechina/vc-lab) |
 | 实践 | 个人交付 | 完成一次真实需求、交付和复盘 | OPC 实践项目 |
 | 参考 | 生态共建 | Datawhale 开源项目管理委员会 | DOPMC |
 
@@ -608,7 +608,7 @@ OPC 路线对应从个人效率到产品交付、业务闭环和生态贡献的�
 
 AI 应用并不是只由模型、RAG 和 Agent 构成。真实项目还会遇到数据库、统计、软件工程、产品设计、安全和技术表达等问题。这些内容不适合全部放进公共前置，否则初学者会在做出第一个作品前学习过多知识；但如果完全省略，又容易让项目停留在 Demo 阶段。
 
-因此，3.1 版本将这些非 AI 知识整理为自选支线。学习者可以先进入 AI 主线，在项目遇到具体问题时选择一条支线，再把支线成果带回原项目。
+因此，3.0 版本将这些非 AI 知识整理为自选支线。学习者可以先进入 AI 主线，在项目遇到具体问题时选择一条支线，再把支线成果带回原项目。
 
 自选支线不要求全部完成，也不用于判断不同学习者能力的高低。
 
