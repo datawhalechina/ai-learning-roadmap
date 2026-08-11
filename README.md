@@ -1,6 +1,6 @@
 # Datawhale AI Learning Roadmap
 
-Datawhale 人工智能培养方案 V3.1 与闯关式学习地图。
+Datawhale 人工智能培养方案 V3.0 与闯关式学习地图。
 
 本项目面向希望系统学习人工智能、构建 AI 应用或使用 AI 提升生产力的学习者。路线按照学习目标组织，强调最小前置、同类择一、项目验收和按需补齐基础能力。
 
@@ -14,7 +14,7 @@ GitHub Pages 开启后可访问：
 
 ## 培养方案
 
-- [阅读完整培养方案](./curriculum-v3.1.md)
+- [阅读完整培养方案](./curriculum-v3.0.md)
 - [打开闯关式学习地图](./index.html)
 
 ## 当前路线
@@ -40,7 +40,7 @@ GitHub Pages 开启后可访问：
 ├── index.html          # 闯关式学习地图入口
 ├── styles.css          # 页面样式
 ├── app.js              # 路线数据、关卡逻辑与本地进度
-├── curriculum-v3.1.md  # 完整培养方案文档
+├── curriculum-v3.0.md  # 完整培养方案文档
 ├── LICENSE
 └── README.md
 ```
