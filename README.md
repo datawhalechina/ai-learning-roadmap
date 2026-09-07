@@ -8,7 +8,7 @@ Datawhale 人工智能培养方案 V3.0 与闯关式学习地图。
 
 GitHub Pages 开启后可访问：
 
-<https://datawhalechina.github.io/datawhale-ai-learning-roadmap/>
+<https://datawhalechina.github.io/ai-learning-roadmap/>
 
 也可以直接下载仓库并双击 `index.html`。网页为纯静态实现，不依赖后端；学习进度保存在当前浏览器的 LocalStorage 中。
 
