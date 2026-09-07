@@ -15,7 +15,7 @@ GitHub Pages 开启后可访问：
 ## 培养方案
 
 - [阅读完整培养方案](./curriculum-v3.0.md)
-- [打开闯关式学习地图](./index.html)
+- [打开闯关式学习地图](https://datawhalechina.github.io/ai-learning-roadmap)
 
 ## 当前路线
 
